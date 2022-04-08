@@ -4,3 +4,4 @@ RUN mkdir -p /usr/src/es-banco
 WORKDIR /usr/src/es-banco
 EXPOSE 8081
 CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-Duser.timezone=EC", "-jar", "es-banco-1.0.0.jar"]
+ENTRYPOINT [ "java","-jar","/es-banco-1.0.0.jar" ]
