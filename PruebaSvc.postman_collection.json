@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "dd4a189e-b273-4c23-a2e5-2b22d3e2503e",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/clientes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/clientes/0951782085",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes/0951782085",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes",
+						"0951782085"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/clientes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"nombres\": \"Oscar Sarcos\",\r\n  \"genero\": \"Masculino\",\r\n  \"edad\": 26,\r\n  \"identificacion\": \"0985987553\",\r\n  \"direccion\": \"Guasmo Central\",\r\n  \"telefono\": \"0985987553\",\r\n  \"clienteId\": \"\",\r\n  \"contrasenia\": \"Oscar123\",\r\n  \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/clientes",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 26,\r\n  \"nombres\": \"Oscar Sarcos\",\r\n  \"genero\": \"Masculino\",\r\n  \"edad\": 26,\r\n  \"identificacion\": \"0985987553\",\r\n  \"direccion\": \"Guasmo Central\",\r\n  \"telefono\": \"0985987553\",\r\n  \"clienteId\": \"\",\r\n  \"contrasenia\": \"Oscar123\",\r\n  \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/clientes/25",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/clientes/25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas/identificacion/0951782085",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/cuentas/identificacion/0951782085",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas",
+						"identificacion",
+						"0951782085"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas/numero/478758",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/cuentas/numero/478758",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas",
+						"numero",
+						"478758"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cliente\": {\r\n    \"id\": 26,\r\n    \"nombres\": \"string\",\r\n    \"genero\": \"Masculino\",\r\n    \"edad\": 0,\r\n    \"identificacion\": \"string\",\r\n    \"direccion\": \"string\",\r\n    \"telefono\": \"string\",\r\n    \"clienteId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n    \"contrasenia\": \"string\",\r\n    \"estado\": true\r\n  },\r\n  \"idCuenta\": 0,\r\n  \"numeroCuenta\": \"22040404\",\r\n  \"tipoCuenta\": \"Ahorro\",\r\n  \"saldoInicial\": 400,\r\n  \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cliente\": {\r\n      \"id\": 26,\r\n      \"nombres\": \"Oscar Sarcos\",\r\n      \"genero\": \"Masculino\",\r\n      \"edad\": 26,\r\n      \"identificacion\": \"0985987553\",\r\n      \"direccion\": \"Guasmo Central\",\r\n      \"telefono\": \"0985987553\",\r\n      \"clienteId\": null,\r\n      \"contrasenia\": \"Oscar123\",\r\n      \"estado\": true\r\n    },\r\n    \"idCuenta\": 12,\r\n    \"numeroCuenta\": \"22040404\",\r\n    \"tipoCuenta\": \"Ahorro\",\r\n    \"saldoInicial\": 400.50,\r\n    \"estado\": true\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cuentas/12",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/cuentas/12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cuentas",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/movimientos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"saldoInicial\": 0,\r\n  \"cuenta\": {\r\n    \"cliente\": {\r\n      \"id\": 0,\r\n      \"nombres\": \"string\",\r\n      \"genero\": \"Masculino\",\r\n      \"edad\": 0,\r\n      \"identificacion\": \"string\",\r\n      \"direccion\": \"string\",\r\n      \"telefono\": \"string\",\r\n      \"clienteId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n      \"contrasenia\": \"string\",\r\n      \"estado\": true\r\n    },\r\n    \"idCuenta\": 0,\r\n    \"numeroCuenta\": \"22040404\",\r\n    \"tipoCuenta\": \"Ahorro\",\r\n    \"saldoInicial\": 0,\r\n    \"estado\": true\r\n  },\r\n  \"idMovimiento\": 0,\r\n  \"fecha\": \"2022-04-08T01:38:43.809Z\",\r\n  \"tipoMovimiento\": \"Deposito\",\r\n  \"valor\": 3000,\r\n  \"saldo\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/movimientos",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"saldoInicial\": 400,\r\n    \"cuenta\": {\r\n      \"cliente\": {\r\n        \"id\": 26,\r\n        \"nombres\": \"Oscar Sarcos\",\r\n        \"genero\": \"Masculino\",\r\n        \"edad\": 26,\r\n        \"identificacion\": \"0985987553\",\r\n        \"direccion\": \"Guasmo Central\",\r\n        \"telefono\": \"0985987553\",\r\n        \"clienteId\": null,\r\n        \"contrasenia\": \"Oscar123\",\r\n        \"estado\": true\r\n      },\r\n      \"idCuenta\": 13,\r\n      \"numeroCuenta\": \"22040404\",\r\n      \"tipoCuenta\": \"Ahorro\",\r\n      \"saldoInicial\": 400,\r\n      \"estado\": true\r\n    },\r\n    \"idMovimiento\": 51,\r\n    \"fecha\": \"2022-04-08T01:38:43.809+00:00\",\r\n    \"tipoMovimiento\": \"Retiro\",\r\n    \"valor\": 100,\r\n    \"saldo\": 3400\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/movimientos/numero/22040404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/movimientos/numero/22040404",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movimientos",
+						"numero",
+						"22040404"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/movimientos/cuenta/tipo/22040404/RETIRO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/movimientos/cuenta/tipo/22040404/RETIRO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movimientos",
+						"cuenta",
+						"tipo",
+						"22040404",
+						"RETIRO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/movimientos/53",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/movimientos/53",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movimientos",
+						"53"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/reportes/0985987553/2022-04-01/2022-04-30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/reportes/0985987553/2022-04-01/2022-04-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"reportes",
+						"0985987553",
+						"2022-04-01",
+						"2022-04-30"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

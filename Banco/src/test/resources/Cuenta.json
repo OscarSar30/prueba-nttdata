@@ -1,0 +1,40 @@
+[
+  {
+    "cliente": {
+      "id": 0,
+      "nombres": "Jose Lema",
+      "genero": "Masculino",
+      "edad": 33,
+      "identificacion": "0951782085",
+      "direccion": "Otavalo sn y principal",
+      "telefono": "098254785",
+      "clienteId": "e0f42419-55ea-4d82-ac66-75bcc08fe481",
+      "contrasenia": "12345",
+      "estado": true
+    },
+    "idCuenta": 0,
+    "numeroCuenta": "585545",
+    "tipoCuenta": "Corriente",
+    "saldoInicial": 1000,
+    "estado": true
+  },
+  {
+    "cliente": {
+      "id": 0,
+      "nombres": "Marianela Montalvo",
+      "genero": "Femenino",
+      "edad": 22,
+      "identificacion": "0951782054",
+      "direccion": "Amazonas y NNUU",
+      "telefono": "1234567890",
+      "clienteId": "cc181f01-002d-4ed5-b370-91feeb75c657",
+      "contrasenia": "5678",
+      "estado": true
+    },
+    "idCuenta": 9,
+    "numeroCuenta": "496825",
+    "tipoCuenta": "Ahorro",
+    "saldoInicial": 540,
+    "estado": true
+  }
+]
